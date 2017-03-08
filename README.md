@@ -18,13 +18,13 @@ It supports Windows only for the moment. And uses a COM server technology.
 
 ## Installation
 
-Everything required is in the `/bin` directory. Please put them in a proper location as you wish on your hard drive before installation.
+Everything required to use it is in the `/bin` directory. Please put them at a proper location as you wish on your hard drive before installation.
 
 Double click the `/bin/register.reg` to import necessary information to the system registry.
 
 ![](img/1.png)
 
-Execute the `bin/SharpShell Tools/ServerManager.exe` to run the COM server manipulator tool.
+Execute the `bin/SharpShell Tools/ServerManager.exe` to run the COM server manipulation tool.
 
 Drag the `/bin/ArduboyIconHandler.dll` onto the server tool window.
 
@@ -38,7 +38,7 @@ Click the menu `Server`, `Register Server (x86/x64)` according to your platform.
 
 ![](img/4.png)
 
-Click the menu `Explorer`, `Restart Explorer` to let the explorer loads the COM assembly.
+Click the menu `Explorer`, `Restart Explorer` to let the explorer loads and uses the COM assembly.
 
 ![](img/5.png)
 
@@ -54,7 +54,7 @@ Double click the `/bin/unregister.reg` to remove imported registry data.
 
 ## For developers
 
-It's simple to add a icon to your .arduboy file.
+It's simple to add an icon to your .arduboy file.
 
 1. Edit the `info.json` file of the .arduboy package, by adding a `"icons"` section, see follow image for instance.
 2. Pack an icon file into the .arduboy package.
@@ -69,4 +69,4 @@ The Arduboy Icon Handler will follow some steps to determine how to show an icon
 4. Tries to use `.arduboy/icon.png`.
 5. Uses the default Arduino icon.
 
-It will use the first available icon.
+It will use the first available one.
