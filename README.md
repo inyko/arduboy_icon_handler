@@ -1,6 +1,6 @@
 # Arduboy Icon Handler
 
-**Created by [Wang Renxin](https://linkedin.com/in/wangrenxin).**
+**Created by [Wang Renxin](https://github.com/paladin-t).**
 
 I created this project based on Dave Kerr's [.NET Shell Extensions - Shell Icon Handlers](https://www.codeproject.com/Articles/522665/NET-Shell-Extensions-Shell-Icon-Handlers).
 
